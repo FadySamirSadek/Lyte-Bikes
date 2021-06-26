@@ -140,9 +140,16 @@ a:active {
     font-size: 15px;
   }
   .visit-us {
-    font-size: 1.8rem;
+    font-size: 1.1rem;
   }
   .feature {
+    font-size: 16px;
+  }
+  .more {
     font-size: 18px;
+  }
+  .button {
+    padding: 7px;
+    border-radius: 15px;
   }
 }
