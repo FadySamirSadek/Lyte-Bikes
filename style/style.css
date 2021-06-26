@@ -22,7 +22,7 @@ html {
 .header {
   max-width: 1400px;
   margin: auto;
-  margin-top: 90px;
+  margin-top: 50px;
   padding: 10px;
 }
 .logo {
@@ -83,13 +83,14 @@ a:active {
   margin-left: 50px;
 }
 .footer {
-  max-width: 1400px;
-  margin: auto;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
 }
 .social-media {
-  position: absolute;
-  bottom: 0px;
-  margin-left: 15px;
+  width: 1400px;
+  margin: auto;
+  padding-left: 10px;
 }
 .social-media-icon {
   margin-right: 10px;
