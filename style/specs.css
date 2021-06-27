@@ -10,6 +10,7 @@ html,
 body {
   height: 100%;
   margin: 0px;
+  overflow-x: hidden;
 }
 body {
   background: url(../assets/gradient24.jpeg) no-repeat center center fixed;
@@ -40,6 +41,9 @@ a:active {
 .color-swatches {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.color-swatches-mobile {
+  display: none;
 }
 .color-swatch {
   height: 35px;
@@ -85,8 +89,9 @@ a:active {
   color: white;
   font-family: mainFont;
   font-size: 16px;
-  width: 100%;
+  width: 97%;
   max-width: 500px;
+  padding: 10px;
 }
 .container {
   width: 100%;
@@ -100,24 +105,6 @@ a:active {
   margin: auto;
 }
 
-.features {
-  width: 100%;
-  max-width: 900px;
-  padding: 10px;
-}
-.feature {
-  text-align: center;
-  display: inline-block;
-  color: white;
-  font-family: mainFontBold;
-  font-size: 27px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-.feature img {
-  width: 100%;
-  max-width: 180px;
-}
 .visit-us {
   color: white;
   font-family: mainFontBold;
@@ -133,7 +120,7 @@ a:active {
 }
 table {
   border: 1px solid white;
-  max-width: 500px;
+  max-width: 450px;
 }
 table td {
   border-top: thin solid;
@@ -173,6 +160,21 @@ table td:last-child {
 @media screen and (max-width: 900px) {
   .container {
     flex-direction: column;
+    overflow-x: hidden;
+  }
+  .color-swatches {
+    display: none;
+  }
+  .color-swatches-mobile {
+    display: block;
+    margin: auto;
+    z-index: 9999;
+  }
+  .more {
+    display: block;
+    margin: auto;
+    width: 100px;
+    text-align: center;
   }
 }
 @media screen and (max-width: 700px) {
@@ -189,8 +191,8 @@ table td:last-child {
   .visit-us {
     font-size: 1.1rem;
   }
-  .feature {
-    font-size: 16px;
+  .features {
+    font-size: 12px;
   }
   .more {
     font-size: 18px;
@@ -199,7 +201,28 @@ table td:last-child {
     padding: 7px;
     border-radius: 15px;
   }
+  .specs-content {
+    padding-left: 10px;
+  }
+  .slogan {
+    font-size: 1.8rem;
+  }
   .footer {
     padding-bottom: 20px;
+    width: auto;
+    margin: auto;
+    text-align: center;
+  }
+  table {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  table {
+    width: 300px !important;
+    max-width: 100%;
+  }
+  #splide {
+    height: 400px;
   }
 }
