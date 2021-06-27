@@ -8,15 +8,13 @@
 }
 html,
 body {
-  height: 100%;
-}
-html {
-  background: url(../assets/gradient-background-1.jpeg) no-repeat center;
-  background-blend-mode: overlay;
-
-  background-size: cover;
+  margin: 0;
   height: 100%;
   overflow: hidden;
+}
+
+body {
+  background: url(../assets/gradient-background-1.jpeg) no-repeat center;
 }
 .header {
   max-width: 1400px;
@@ -88,12 +86,12 @@ a:active {
   margin-left: 50px;
 }
 .features {
-  width: 100%;
-  max-width: 900px;
+  max-width: 98%;
+  width: 900px;
   display: flex;
   margin: auto;
   justify-content: space-between;
-  padding: 10px;
+  padding-left: 10px;
 }
 .feature {
   text-align: center;
@@ -117,19 +115,19 @@ a:active {
 }
 .footer {
   position: absolute;
-  bottom: 35px;
-  width: 100%;
+  bottom: 20px;
+  max-width: 100%;
+  padding-left: 10px;
 }
 .social-media {
   width: 100%;
   max-width: 1400px;
   margin: auto;
-  padding-left: 10px;
 }
 .social-media-icon {
   margin-right: 10px;
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 700px) {
   .logo {
     width: 100px;
   }
@@ -152,5 +150,14 @@ a:active {
   .button {
     padding: 7px;
     border-radius: 15px;
+  }
+  .header {
+    margin-top: 20px;
+  }
+  .social-media img {
+    width: 20px;
+  }
+  .footer {
+    bottom: 10px;
   }
 }
