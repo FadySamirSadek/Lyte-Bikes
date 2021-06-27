@@ -9,6 +9,7 @@
 html,
 body {
   height: 100%;
+  margin: 0px;
 }
 html {
   background: url(../assets/gradient24.jpeg) no-repeat center;
@@ -16,7 +17,6 @@ html {
 
   background-size: cover;
   height: 100%;
-  overflow: hidden;
 }
 .header {
   max-width: 1400px;
