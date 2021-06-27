@@ -21,6 +21,9 @@ html {
   background-size: cover;
   */
 }
+body {
+  background-color: red;
+}
 .header {
   max-width: 1400px;
   margin: auto;
