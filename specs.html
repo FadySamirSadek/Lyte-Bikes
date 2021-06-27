@@ -86,9 +86,9 @@
         </table>
         <br />
         <div class="color-swatches">
-          <div class="color-swatch grey"></div>
-          <div class="color-swatch white"></div>
-          <div class="color-swatch black"></div>
+          <div class="color-swatch grey" onClick="changeColor('grey')"></div>
+          <div class="color-swatch white" onClick="changeColor('white')"></div>
+          <div class="color-swatch black" onClick="changeColor('black')"></div>
         </div>
         <br />
         <a href="approved-dealers.html"
@@ -98,41 +98,39 @@
       <div>
         <div id="splide" class="splide">
           <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide easyzoom">
-                <a href="./assets/gallery/grey/1.png">
-                  <img src="./assets/gallery/grey/1.png" />
-                </a>
+            <ul id="" class="splide__list">
+              <li class="splide__slide">
+                <img id="gallery-1" src="./assets/gallery/grey/1.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/2.png" />
+                <img id="gallery-2" src="./assets/gallery/grey/2.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/3.png" />
+                <img id="gallery-3" src="./assets/gallery/grey/3.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/4.png" />
+                <img id="gallery-4" src="./assets/gallery/grey/4.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/5.png" />
+                <img id="gallery-5" src="./assets/gallery/grey/5.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/6.png" />
+                <img id="gallery-6" src="./assets/gallery/grey/6.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/7.png" />
+                <img id="gallery-7" src="./assets/gallery/grey/7.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/8.png" />
+                <img id="gallery-8" src="./assets/gallery/grey/8.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/9.png" />
+                <img id="gallery-9" src="./assets/gallery/grey/9.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/10.png" />
+                <img id="gallery-10" src="./assets/gallery/grey/10.png" />
               </li>
               <li class="splide__slide">
-                <img src="./assets/gallery/grey/11.png" />
+                <img id="gallery-11" src="./assets/gallery/grey/11.png" />
               </li>
             </ul>
           </div>
@@ -167,7 +165,7 @@
       </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
-
+    <script src="js/script.js"></script>
     <script>
       new Splide("#splide", { rewind: true, pagination: false }).mount();
     </script>
