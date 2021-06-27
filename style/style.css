@@ -6,17 +6,20 @@
   font-family: mainFontBold;
   src: url(https://res.cloudinary.com/dbgzjhgbs/raw/upload/v1624691254/lyte-fonts/Avenir%20Font/AvenirLTStd-Black_ypgivv.otf);
 }
+html,
 body {
-  height: 100%;
-}
-html {
-  background: url(../assets/home-background.jpg) no-repeat center 65% fixed
-    rgba(106, 13, 173, 0.3);
-  background-blend-mode: overlay;
-
-  background-size: cover;
+  margin: 0;
   height: 100%;
   overflow: hidden;
+}
+
+html {
+  /* background: url(../assets/home-background.jpg) no-repeat center 65% fixed
+    rgba(106, 13, 173, 0.3);
+
+  background-blend-mode: overlay;
+  background-size: cover;
+  */
 }
 .header {
   max-width: 1400px;
