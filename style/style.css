@@ -85,13 +85,13 @@ a:active {
 .footer {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  max-width: 100%;
+  padding-left: 10px;
 }
 .social-media {
   width: 100%;
   max-width: 1400px;
   margin: auto;
-  padding-left: 10px;
 }
 .social-media-icon {
   margin-right: 10px;
@@ -106,5 +106,11 @@ a:active {
     margin-right: 10px;
     font-family: mainFont;
     font-size: 15px;
+  }
+  .about-lyte {
+    margin-left: 15px;
+  }
+  .header {
+    margin-top: 20px;
   }
 }
