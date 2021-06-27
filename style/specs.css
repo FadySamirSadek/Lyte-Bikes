@@ -11,12 +11,8 @@ body {
   height: 100%;
   margin: 0px;
 }
-html {
-  background: url(../assets/gradient24.jpeg) no-repeat center;
-  background-blend-mode: overlay;
-
-  background-size: cover;
-  height: 100%;
+body {
+  background: url(../assets/gradient24.jpeg) no-repeat center center fixed;
 }
 .header {
   max-width: 1400px;
@@ -204,6 +200,6 @@ table td:last-child {
     border-radius: 15px;
   }
   .footer {
-    bottom: 10px;
+    padding-bottom: 20px;
   }
 }
