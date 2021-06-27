@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lyte Bikes</title>
+    <link rel="stylesheet" href="./style/specs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./assets/lyte-white.png" class="logo" />
+      <nav class="nav">
+        <a href="#">home</a>
+        <a href="#">models</a>
+        <a href="#">connect</a>
+      </nav>
+      <hr class="horizontal-split" />
+    </header>
+    <main class="container">
+      <div class="specs-content">
+        <h2 class="slogan">
+          Get around town<br />
+          easily with zero<br />
+          carbon emissions
+        </h2>
+        <p class="features">
+          Sleek & Silent<br />
+          Chic Design<br />
+          Emission-Free<br />
+          Fully Electric<br />
+          Range Of Colours<br />
+          100% Carbon Neutra
+        </p>
+        <table
+          style="width: 100%"
+          class="specs-table"
+          cellpadding="0"
+          cellspacing="0"
+          width="100%"
+          style="border: 1px"
+          rules="none"
+        >
+          <tr>
+            <th colspan="2">Specifications</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>Dimensions</td>
+            <td>1840 x 710 x 1180mm</td>
+          </tr>
+          <tr>
+            <td>Top Speed</td>
+            <td>45kmph</td>
+          </tr>
+          <tr>
+            <td>Total Range</td>
+            <td>65km</td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td>122kg</td>
+          </tr>
+          <tr>
+            <td>Motor</td>
+            <td>3000W</td>
+          </tr>
+          <tr>
+            <td>Battery</td>
+            <td>60V x 28ah Lithium</td>
+          </tr>
+          <tr>
+            <td>Tyres</td>
+            <td>Front / Rear Tyre: Tubeless tyre 110/70 - 12’’</td>
+          </tr>
+        </table>
+        <br />
+        <div class="color-swatches">
+          <div class="color-swatch grey"></div>
+          <div class="color-swatch white"></div>
+          <div class="color-swatch black"></div>
+        </div>
+        <br />
+        <span class="button more">more</span>
+      </div>
+      <div>
+        <div id="splide" class="splide">
+          <div class="splide__track">
+            <ul class="splide__list">
+              <li class="splide__slide easyzoom">
+                <a href="./assets/gallery/grey/1.png">
+                  <img src="./assets/gallery/grey/1.png" />
+                </a>
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/2.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/3.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/4.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/5.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/6.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/7.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/8.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/9.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/10.png" />
+              </li>
+              <li class="splide__slide">
+                <img src="./assets/gallery/grey/11.png" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="social-media">
+        <a href="#">
+          <img
+            class="social-media-icon"
+            src="./assets/facebook-xxl.png"
+            width="30"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="social-media-icon"
+            src="./assets/twitter-xxl.png"
+            width="30"
+          />
+        </a>
+        <a href="https://www.instagram.com/lytebikes/">
+          <img
+            class="social-media-icon"
+            src="./assets/instagram.png"
+            width="30"
+          />
+        </a>
+        <img class="social-media-icon" src="" />
+        <img class="social-media-icon" src="" />
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+    <script>
+      new Splide("#splide", { rewind: true, pagination: false }).mount();
+    </script>
+  </body>
+</html>
