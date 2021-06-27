@@ -13,16 +13,11 @@ body {
   overflow: hidden;
 }
 
-html {
-  /* background: url(../assets/home-background.jpg) no-repeat center 65% fixed
+body {
+  background: url(../assets/home-background.jpg) no-repeat center 65% fixed
     rgba(106, 13, 173, 0.3);
-
   background-blend-mode: overlay;
   background-size: cover;
-  */
-}
-body {
-  background-color: red;
 }
 .header {
   max-width: 1400px;
