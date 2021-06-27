@@ -9,13 +9,12 @@
 html,
 body {
   height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
 }
-html {
-  background: url(../assets/gradient-background-1.jpeg) no-repeat center;
-  background-blend-mode: overlay;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
+body {
+  background: url(../assets/gradient-background-1.jpeg) no-repeat center center
+    fixed;
 }
 .header {
   max-width: 1400px;
@@ -73,7 +72,7 @@ a:active {
 .container {
   width: 100%;
   margin: auto;
-  max-width: 1400px;
+  overflow-x: hidden;
 }
 .sub-container {
   display: flex;
@@ -81,8 +80,9 @@ a:active {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  max-width: 100%;
-  width: 1400px;
+  width: 100%;
+  max-width: 1400px;
+  overflow-x: hidden;
 }
 .about-lyte {
   margin: 0;
@@ -136,9 +136,11 @@ a:active {
   width: 400px;
 }
 .footer {
+  width: 98%;
   position: absolute;
-  bottom: 35px;
-  width: 100%;
+  bottom: 20px;
+  max-width: 100%;
+  padding-left: 10px;
 }
 .social-media {
   width: 100%;
@@ -149,7 +151,7 @@ a:active {
 .social-media-icon {
   margin-right: 10px;
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 700px) {
   .logo {
     width: 100px;
   }
@@ -173,145 +175,11 @@ a:active {
     padding: 7px;
     border-radius: 15px;
   }
-}
-@font-face {
-  font-family: mainFont;
-  src: url(https://res.cloudinary.com/dbgzjhgbs/raw/upload/v1624691254/lyte-fonts/Avenir%20Font/AvenirLTStd-Book_hfryk4.otf);
-}
-@font-face {
-  font-family: mainFontBold;
-  src: url(https://res.cloudinary.com/dbgzjhgbs/raw/upload/v1624691254/lyte-fonts/Avenir%20Font/AvenirLTStd-Black_ypgivv.otf);
-}
-html,
-body {
-  height: 100%;
-}
-html {
-  background: url(../assets/gradient-background-1.jpeg) no-repeat center;
-  background-blend-mode: overlay;
-
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-}
-.header {
-  max-width: 1400px;
-  margin: auto;
-  margin-top: 50px;
-  padding: 10px;
-}
-.logo {
-  width: 200px;
-}
-a,
-a:hover,
-a:visited,
-a:active {
-  color: inherit;
-  text-decoration: none;
-}
-.button {
-  color: white;
-  background-color: #d5427e;
-  padding: 15px 40px 15px;
-  border-radius: 30px;
-  font-family: mainFont;
-}
-.more {
-  font-size: 26px;
-}
-.nav {
-  float: right;
-}
-.nav a {
-  text-decoration: none;
-  color: white;
-  margin-right: 10px;
-  font-family: mainFont;
-  font-size: 22px;
-}
-.horizontal-split {
-  border-top: 1px solid white;
-  margin-top: 20px;
-}
-.slogan {
-  color: white;
-  font-family: mainFontBold;
-  font-size: 2rem;
-  display: inline;
-}
-
-.about-lyte {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-left: 50px;
-}
-.features {
-  width: 100%;
-  max-width: 900px;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  padding: 10px;
-}
-.feature {
-  text-align: center;
-  display: inline-block;
-  color: white;
-  font-family: mainFontBold;
-  font-size: 27px;
-  font-weight: bold;
-  margin-right: 10px;
-}
-.feature img {
-  width: 100%;
-  max-width: 180px;
-}
-.visit-us {
-  color: white;
-  font-family: mainFontBold;
-  font-size: 3rem;
-  font-weight: bold;
-  text-align: center;
-}
-.footer {
-  position: absolute;
-  bottom: 35px;
-  width: 100%;
-}
-.social-media {
-  width: 1400px;
-  margin: auto;
-  padding-left: 10px;
-}
-.social-media-icon {
-  margin-right: 10px;
-}
-@media screen and (max-width: 570px) {
-  .logo {
-    width: 100px;
+  .footer {
+    bottom: 10px;
+    text-align: center;
   }
-  .nav a {
-    text-decoration: none;
-    color: white;
-    margin-right: 10px;
-    font-family: mainFont;
-    font-size: 15px;
-  }
-  .visit-us {
-    font-size: 1.1rem;
-  }
-  .feature {
-    font-size: 16px;
-  }
-  .more {
-    font-size: 18px;
-  }
-  .button {
-    padding: 7px;
-    border-radius: 15px;
+  .container {
+    padding: 10px;
   }
 }
