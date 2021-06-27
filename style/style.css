@@ -83,6 +83,7 @@ a:active {
   margin-left: 50px;
 }
 .footer {
+  width: 98%;
   position: absolute;
   bottom: 20px;
   max-width: 100%;
