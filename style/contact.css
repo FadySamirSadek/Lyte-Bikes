@@ -83,6 +83,8 @@ a:active {
   width: 100%;
   max-width: 1400px;
   overflow-x: hidden;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .about-lyte {
   margin: 0;

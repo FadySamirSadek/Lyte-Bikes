@@ -18,7 +18,7 @@
       </a>
       <nav class="nav">
         <a href="./index.html">home</a>
-        <a href="#">models</a>
+        <a href="./specs.html">models</a>
         <a href="./contact.html">contact</a>
       </nav>
       <hr class="horizontal-split" />
@@ -175,7 +175,11 @@
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
     <script src="js/script.js"></script>
     <script>
-      new Splide("#splide", { rewind: true, pagination: false }).mount();
+      new Splide("#splide", {
+        rewind: true,
+        pagination: false,
+        autoplay: true,
+      }).mount();
     </script>
   </body>
 </html>
