@@ -1,26 +1,7 @@
-@font-face {
-  font-family: mainFont;
-  src: url(https://res.cloudinary.com/dbgzjhgbs/raw/upload/v1624691254/lyte-fonts/Avenir%20Font/AvenirLTStd-Book_hfryk4.otf);
-}
-@font-face {
-  font-family: mainFontBold;
-  src: url(https://res.cloudinary.com/dbgzjhgbs/raw/upload/v1624691254/lyte-fonts/Avenir%20Font/AvenirLTStd-Black_ypgivv.otf);
-}
-html,
-body {
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-}
-
-body {
-  background: url(../assets/gradient-background-1.jpeg) no-repeat center;
-}
-.header {
-  max-width: 1400px;
-  margin: auto;
-  margin-top: 50px;
-  padding: 10px;
+.page-2 {
+  height: 900px;
+  /*background: url(../assets/gradient-background-1.png);*/
+  position: relative;
 }
 .logo {
   width: 200px;
@@ -69,12 +50,11 @@ a:active {
   width: 100%;
   max-width: 500px;
 }
-.container {
+.page-2-container {
   width: 100%;
   margin: auto;
   position: absolute;
   top: 50%;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .about-lyte {
@@ -113,13 +93,7 @@ a:active {
   font-weight: bold;
   text-align: center;
 }
-.footer {
-  width: 98%;
-  position: absolute;
-  bottom: 20px;
-  max-width: 100%;
-  padding-left: 10px;
-}
+
 .social-media {
   width: 100%;
   max-width: 1400px;
@@ -152,13 +126,7 @@ a:active {
     padding: 7px;
     border-radius: 15px;
   }
-  .header {
-    margin-top: 20px;
-  }
   .social-media img {
     width: 20px;
-  }
-  .footer {
-    bottom: 10px;
   }
 }

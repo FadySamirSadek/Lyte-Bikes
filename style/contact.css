@@ -74,17 +74,10 @@ a:active {
   margin: auto;
   overflow-x: hidden;
 }
-.sub-container {
+.flex-container {
   display: flex;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
   width: 100%;
   max-width: 1400px;
-  overflow-x: hidden;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 .about-lyte {
   margin: 0;
