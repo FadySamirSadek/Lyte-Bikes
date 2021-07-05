@@ -114,7 +114,7 @@ a:active {
   .nav a {
     text-decoration: none;
     color: white;
-    margin-right: 8px;
+    margin-right: 4px;
     font-family: mainFont;
     font-size: 11px;
   }
