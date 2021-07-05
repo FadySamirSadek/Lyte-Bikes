@@ -142,9 +142,9 @@ a:active {
   .nav a {
     text-decoration: none;
     color: white;
-    margin-right: 10px;
+    margin-right: 4px;
     font-family: mainFont;
-    font-size: 15px;
+    font-size: 12px;
   }
   .visit-us {
     font-size: 1.1rem;
