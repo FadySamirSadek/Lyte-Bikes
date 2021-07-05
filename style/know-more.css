@@ -122,6 +122,9 @@ a:active {
   .more {
     font-size: 18px;
   }
+  .page-2 {
+    height: 500px;
+  }
   .button {
     padding: 7px;
     border-radius: 15px;

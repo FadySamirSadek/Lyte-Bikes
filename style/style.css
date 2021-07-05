@@ -114,20 +114,26 @@ a:active {
   .nav a {
     text-decoration: none;
     color: white;
-    margin-right: 10px;
+    margin-right: 8px;
     font-family: mainFont;
-    font-size: 15px;
+    font-size: 11px;
   }
   .about-lyte {
-    margin-left: 15px;
+    margin-left: 15px !important;
   }
   .header {
     padding-top: 20px;
+  }
+  .page1 {
+    height: 500px;
   }
   .social-media img {
     width: 20px;
   }
   .footer {
     bottom: 10px;
+  }
+  .social-media {
+    text-align: center;
   }
 }
