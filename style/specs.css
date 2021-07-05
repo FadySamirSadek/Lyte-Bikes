@@ -79,6 +79,10 @@ a:active {
   border-top: 1px solid white;
   margin-top: 20px;
 }
+.mobile-header {
+  display: none;
+}
+
 .slogan {
   color: white;
   font-family: mainFontBold;
@@ -139,6 +143,9 @@ table td:last-child {
   width: 600px;
   text-align: center;
 }
+.splide-mobile {
+  display: none;
+}
 .splide__slide img {
   width: 100%;
 }
@@ -162,6 +169,9 @@ table td:last-child {
     flex-direction: column;
     overflow-x: hidden;
   }
+  .splide__track {
+    z-index: -1;
+  }
   .color-swatches {
     display: none;
   }
@@ -169,6 +179,8 @@ table td:last-child {
     display: block;
     margin: auto;
     z-index: 9999;
+    text-align: center;
+    margin-bottom: 20px;
   }
   .more {
     display: block;
@@ -207,6 +219,13 @@ table td:last-child {
   .slogan {
     font-size: 1.8rem;
   }
+  .mobile-header {
+    display: block;
+    margin-left: 15px;
+  }
+  .desktop-header {
+    display: none;
+  }
   .footer {
     padding-bottom: 20px;
     width: auto;
@@ -218,6 +237,9 @@ table td:last-child {
   }
   .social-media {
     text-align: center;
+  }
+  .container {
+    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 500px) {
