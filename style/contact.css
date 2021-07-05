@@ -78,6 +78,7 @@ a:active {
   display: flex;
   width: 100%;
   max-width: 1400px;
+  margin: auto;
 }
 .about-lyte {
   margin: 0;
@@ -176,6 +177,14 @@ a:active {
   }
   .container {
     padding: 10px;
+  }
+  .flex-container {
+    display: block;
+  }
+  .image-container{
+    text-align: center;
+    margin: auto;
+}
   }
   .social-media {
     text-align: center;
