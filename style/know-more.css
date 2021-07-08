@@ -66,7 +66,7 @@ a:active {
   margin-left: 50px;
 }
 .features {
-  max-width: 98%;
+  max-width: 95%;
   width: 900px;
   display: flex;
   margin: auto;
@@ -80,7 +80,7 @@ a:active {
   font-family: mainFontBold;
   font-size: 27px;
   font-weight: bold;
-  margin-right: 10px;
+  margin-right: 52px;
 }
 .feature img {
   width: 100%;
@@ -102,7 +102,8 @@ a:active {
   font-weight: bold;
   text-align: center;
   margin: auto;
-  margin-top: -30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 
 .social-media {
@@ -132,6 +133,7 @@ a:active {
   }
   .feature {
     font-size: 16px;
+    margin-right: 28px;
   }
   .more {
     font-size: 18px;

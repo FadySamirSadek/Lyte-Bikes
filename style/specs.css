@@ -41,6 +41,8 @@ a:active {
 .color-swatches {
   margin-top: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
+  margin-left: 10px;
 }
 .color-swatches-mobile {
   display: none;
@@ -64,6 +66,7 @@ a:active {
 
 .more {
   font-size: 26px;
+  margin-left: 10px;
 }
 .nav {
   float: right;
@@ -89,13 +92,23 @@ a:active {
   font-size: 2.5rem;
   display: inline;
 }
-.features {
+.sub-slogan {
   color: white;
   font-family: mainFont;
-  font-size: 16px;
+  font-style: italic;
+  font-size: 1.2rem;
+  display: inline;
+  margin-top: 5px;
+}
+.features {
+  color: white;
+  font-family: mainFontBold;
+  font-size: 20px;
   width: 97%;
   max-width: 500px;
   padding: 10px;
+  padding-top: 0px;
+  margin-top: 20px !important;
 }
 .container {
   width: 100%;
@@ -121,6 +134,7 @@ a:active {
   font-family: mainFont;
   font-size: 14px;
   font-weight: bold;
+  margin-left: 10px;
 }
 table {
   border: 1px solid white;
@@ -219,6 +233,9 @@ table td:last-child {
   }
   .slogan {
     font-size: 1.8rem;
+  }
+  .sub-slogan {
+    font-size: 0.8rem;
   }
   .mobile-header {
     display: block;
