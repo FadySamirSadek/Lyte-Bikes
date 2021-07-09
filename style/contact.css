@@ -56,8 +56,8 @@ a:active {
   border-top: 1px solid white;
   margin-top: 20px;
 }
-.text-container{
-  padding-top: 70px;
+.text-container {
+  padding: 10px 10px 10px 10px;
 }
 .title {
   color: white;
@@ -65,15 +65,14 @@ a:active {
   font-size: 2.5rem;
   display: inline;
 }
-.disc-p{
+.disc-p {
   color: white;
   font-family: mainFont;
-  font-size: 22px;
+  font-size: 18px;
   width: 100%;
   max-width: 500px;
-  margin-top:15px;
-  margin-bottom:15px;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .container {
@@ -139,8 +138,8 @@ a:active {
   width: 400px;
 }
 .footer {
-  width: 98%;
   position: absolute;
+  width: 98%;
   bottom: 20px;
   max-width: 100%;
   padding-left: 10px;
@@ -181,17 +180,25 @@ a:active {
   .footer {
     bottom: 10px;
     text-align: center;
+    position: inherit;
+    margin-bottom: 20px;
   }
-  .container {
+  .sub-container {
     padding: 10px;
+  }
+  .contact-img {
+    max-width: 100%;
+    width: 400px;
   }
   .flex-container {
     display: block;
   }
-  .image-container{
+  .image-container {
+    max-width: 90%;
     text-align: center;
     margin: auto;
-}
+    padding-right: 0px !important;
+    padding-top: 20px;
   }
   .social-media {
     text-align: center;
