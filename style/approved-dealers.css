@@ -145,6 +145,7 @@ a:active {
   }
   .container {
     padding: 10px;
+    max-width: 95%;
   }
   .nav a {
     text-decoration: none;
@@ -169,6 +170,8 @@ a:active {
   .footer {
     bottom: 10px;
     text-align: center;
+    position: inherit !important;
+    margin-bottom: 20px;
   }
   .dealer {
     font-size: 0.8rem;
