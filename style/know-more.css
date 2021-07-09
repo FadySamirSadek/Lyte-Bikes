@@ -2,6 +2,7 @@
   height: 900px;
   /*background: url(../assets/gradient-background-1.png);*/
   position: relative;
+  overflow-x: hidden;
 }
 .logo {
   width: 200px;
@@ -133,13 +134,13 @@ a:active {
   }
   .feature {
     font-size: 16px;
-    margin-right: 28px;
+    margin-right: 10px;
   }
   .more {
     font-size: 18px;
   }
   .page-2 {
-    height: 400px;
+    height: 365px;
   }
   .button {
     padding: 7px;
