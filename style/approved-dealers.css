@@ -171,7 +171,8 @@ a:active {
     text-align: center;
   }
   .dealer {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
+    max-width: 98%;
   }
   .title {
     font-size: 1.8rem;
