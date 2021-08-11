@@ -13,7 +13,9 @@ body {
   overflow-x: hidden;
 }
 body {
-  background: url(../assets/gradient24.jpeg) no-repeat center center fixed;
+  background: url(../assets/15.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header {
   max-width: 1400px;
